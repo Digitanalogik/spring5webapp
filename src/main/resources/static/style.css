@@ -1,0 +1,25 @@
+table {
+    border: solid 2px #aaa;
+}
+
+th {
+    color: #000;
+    border: solid 1px #999;
+    background-color: #ccc;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 5px;
+}
+
+th:first-of-type {
+    padding-left: 0px;
+}
+
+
+td {
+    color: #000;
+    border: solid 1px #ccc;
+    background-color: #eee;
+    font-weight: 400;
+    padding: 2px 5px;
+}
